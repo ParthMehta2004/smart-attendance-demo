@@ -1,4 +1,4 @@
-import { query } from "../../../lib/db";
+import { query } from "../../../../lib/db";
 
 export async function POST(req) {
   const adminKey = req.headers.get("x-admin-key");
