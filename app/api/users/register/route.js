@@ -1,5 +1,4 @@
-import { query } from "../../../lib/db";
-
+import { query } from "../../../../lib/db";
 export async function POST(req) {
   const { regNo, name, deviceMac } = await req.json();
 
